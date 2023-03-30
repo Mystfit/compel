@@ -13,7 +13,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "git+https://github.com/huggingface/diffusers#egg=diffusers",
+    "diffusers @ git+https://github.com/huggingface/diffusers.git",
     "pyparsing ~= 3.0",
     "torch",
     "transformers ~= 4.25"
